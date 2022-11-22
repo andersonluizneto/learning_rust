@@ -1,35 +1,43 @@
-use rand::Rng;
+use std::io; 
 use std::cmp::Ordering;
-use std::{io, num};
+use rand::Rng;
+
+
 
 fn main() {
     println!("Adivinhe o Número!");
 
-    let secret_number = rand::thread_rng().gen_range(1..101);
+    // Gera um número aleatóri de 1 até 100
+    let secret_number = rand::thread_rng().gen_range(1..=100);
 
-    loop {
-        println!("Digite seu palpite: ");
+    loop { // Loop infinito
 
-        let mut guess = String::new();
+        println!("Por favor entre com seu palpite.");
 
+        let mut guess = String::new(); // Cria uma string
+
+        // Lê da entrada padrão
         io::stdin()
             .read_line(&mut guess)
-            .expect("Falha ao ler a linha");
+            .expect("Falha ao ler a linha.");
 
+        // Tenta converter para um inteiro
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => continue,
         };
 
-        print!("Você adivinhou: {}", guess);
+        println!("Seu palpite: {guess}");
 
+        // Compara a entrada com o número aleatório
         match guess.cmp(&secret_number) {
-            Ordering::Less => println!("Muito menor!"),
-            Ordering::Greater => println!("Muito maior!"),
+            Ordering::Less => println!("Seu palpite é Menor!"),
+            Ordering::Greater => println!("Seu palpite é Maior"),
             Ordering::Equal => {
-                println!("Você venceu!");
-                break;
+                println!("Você acertou!!!");
+                break; // Se acertar sai do loop
             }
         }
-    }
+    } 
+
 }
