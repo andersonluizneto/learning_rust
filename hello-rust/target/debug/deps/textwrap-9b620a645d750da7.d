@@ -1,0 +1,11 @@
+/home/anderson/projetos/rust/learning_rust/hello-rust/target/debug/deps/textwrap-9b620a645d750da7.rmeta: /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/lib.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/indentation.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/splitting.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/core.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/core/optimal_fit.rs
+
+/home/anderson/projetos/rust/learning_rust/hello-rust/target/debug/deps/libtextwrap-9b620a645d750da7.rlib: /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/lib.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/indentation.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/splitting.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/core.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/core/optimal_fit.rs
+
+/home/anderson/projetos/rust/learning_rust/hello-rust/target/debug/deps/textwrap-9b620a645d750da7.d: /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/lib.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/indentation.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/splitting.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/core.rs /home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/core/optimal_fit.rs
+
+/home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/lib.rs:
+/home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/indentation.rs:
+/home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/splitting.rs:
+/home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/core.rs:
+/home/anderson/.cargo/registry/src/github.com-1ecc6299db9ec823/textwrap-0.13.4/src/core/optimal_fit.rs:
